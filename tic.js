@@ -75,7 +75,7 @@ function check_win() {
     }
   }
   if (draw == true) {
-    board = ["", "", "", "", "", "", "", "", ""];
+    
     player = 1;
     console.log("GAME DRAW");
     document.getElementById("info").innerHTML = "DRAW";
